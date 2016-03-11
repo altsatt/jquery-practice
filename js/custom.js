@@ -1,13 +1,13 @@
-
+ var scene = document.getElementById('scene');
+ var parallax = new Parallax(scene);
 
 $(document).ready(function() {
     
-    $(".input-group-addon").click(function() {
-        $('#datetimepicker1').datetimepicker();
-    });
+//    $(".input-group-addon").click(function() {
+//        $('#datetimepicker1').datetimepicker();
+//    });
     
-    $("button.submit").click(function() {
-        $(".form-group").validate({
+        $("#wholeform").validate({
             rules: {
                 name: "required",
                 email: "required",
@@ -23,12 +23,13 @@ $(document).ready(function() {
                 username: "Please enter your username",
                 password: "Your password must be 8 characters long"
             }
-        });
-    });
+       });
+//    });
     
-    var scene = document.getElementById('scene');
-    var parallax = new Parallax(scene);
-    $('#scene').parallax({
-        
-    });
+   
+//    
+//    $(function () {
+//	$('#datetimepicker1').datetimepicker();
+//    });
 
+});

@@ -1,8 +1,16 @@
-.jumbotron {
-    margin-top: 50px;
+body {
+    background-image: url("../images/IMG_3674.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
 }
 
-img.hero-img {
-    width: 100%;
-    margin-bottom: 20px;
+div.scene {
+    position: relative;
 }
+
+img.penguin {
+    position: absolute;
+    margin-left: 30px;
+}
+ 
